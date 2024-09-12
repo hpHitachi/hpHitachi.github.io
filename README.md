@@ -1,1 +1,1 @@
-# hpHitachi.github.io
+# MIMII-Gen.github.io
