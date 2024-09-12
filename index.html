@@ -2,14 +2,101 @@
 <html lang="en">
 	<head>
 		    <meta charset="UTF-8">
-		        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-			    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-			        <title>Welcome to Result Page</title>
+		        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+			    <title>Spectrograms of Generated and Ground Truth Audio Clips</title>
+			        <style>
+        table {
+		            width: 100%;
+			                border-collapse: collapse;
+					            margin: 20px 0;
+						            }
+	        th, td {
+			            border: 1px solid #ddd;
+				                padding: 8px;
+						            text-align: center;
+							            }
+		        th {
+				            background-color: #f4f4f4;
+					            }
+			        img {
+					            width: 150px; /* Adjust as needed */
+						                height: auto;
+								        }
+				        audio {
+						            width: 100%;
+							                margin: 10px 0;
+									        }
+					    </style>
 	</head>
 	<body>
-		    <h1>Welcome!</h1>
-		        <p>Results Coming Soon..</p>
-	</body>
-</html>
+		    <h1>Spectrograms of Generated and Ground Truth Audio Clips</h1>
+		        <table>
+				        <caption>Spectrograms of generated and ground truth audio clips</caption>
+					        <thead>
+							            <tr>
+									                    <th>Metadata</th>
+											                    <th>Caption</th>
+													                    <th>Ground Truth</th>
+															                    <th>Generated</th>
+																	                </tr>
+																			        </thead>
+																				        <tbody>
+																						            <tr>
+																								                    <td>Bearing, anomaly, axis damage, velocity of 24 krpm, location "A"</td>
+																										                    <td>A bearing operating on velocity of 24 krpm with anomaly due to axis damage at location A</td>
+																												                    <td>
+																															                        <img src="images/bearing_ori.png" alt="Bearing Original Spectrogram"><br>
+																																		                    <audio controls>
+																																					                            <source src="audio_files/bearing_ori.wav" type="audio/wav">
+																																								                            Your browser does not support the audio element.
+																																											                        </audio>
+																																														                </td>
+																																																                <td>
+																																																			                    <img src="images/bearing_gen.png" alt="Bearing Generated Spectrogram"><br>
+																																																					                        <audio controls>
+																																																									                        <source src="audio_files/bearing_gen.wav" type="audio/wav">
+																																																												                        Your browser does not support the audio element.
+																																																															                    </audio>
+																																																																	                    </td>
+																																																																			                </tr>
+																																																																					            <tr>
+																																																																							                    <td>Gearbox, anomaly, damage type 2, model B, voltage of 2.3 (V), weight of 0 (g)</td>
+																																																																									                    <td>A gearbox model B operating on voltage of 2.3 (V) and weight of 0 (g) with anomaly due to damage type 2</td>
+																																																																											                    <td>
+																																																																														                        <img src="images/gearbox_ori.png" alt="Gearbox Original Spectrogram"><br>
+																																																																																	                    <audio controls>
+																																																																																				                            <source src="audio_files/gearbox_ori.wav" type="audio/wav">
+																																																																																							                            Your browser does not support the audio element.
+																																																																																										                        </audio>
+																																																																																													                </td>
+																																																																																															                <td>
+																																																																																																		                    <img src="images/gearbox_gen.png" alt="Gearbox Generated Spectrogram"><br>
+																																																																																																				                        <audio controls>
+																																																																																																								                        <source src="audio_files/gearbox_gen.wav" type="audio/wav">
+																																																																																																											                        Your browser does not support the audio element.
+																																																																																																														                    </audio>
+																																																																																																																                    </td>
+																																																																																																																		                </tr>
+																																																																																																																				            <tr>
+																																																																																																																						                    <td>Fan, model, anomaly, over voltage</td>
+																																																																																																																								                    <td>A fan model is running on over voltage with anomaly</td>
+																																																																																																																										                    <td>
+																																																																																																																													                        <img src="images/fan_ori.png" alt="Fan Original Spectrogram"><br>
+																																																																																																																																                    <audio controls>
+																																																																																																																																			                            <source src="audio_files/fan_ori.wav" type="audio/wav">
+																																																																																																																																						                            Your browser does not support the audio element.
+																																																																																																																																									                        </audio>
+																																																																																																																																												                </td>
+																																																																																																																																														                <td>
+																																																																																																																																																	                    <img src="images/fan_gen.png" alt="Fan Generated Spectrogram"><br>
+																																																																																																																																																			                        <audio controls>
+																																																																																																																																																							                        <source src="audio_files/fan_gen.wav" type="audio/wav">
+																																																																																																																																																										                        Your browser does not support the audio element.
+																																																																																																																																																													                    </audio>
+																																																																																																																																																															                    </td>
+																																																																																																																																																																	                </tr>
+																																																																																																																																																																			            <tr>
+																																																																																																																																																																					                    <td>Slider, ball-type, anomaly, damage, velocity 1000.0 (mm/s), acceleration 0.3</td>
+																																																																																																																																																																							                    <td>A ball-type slider operating on velocity of 1000.0 (mm/s) and an accelera
 
 
